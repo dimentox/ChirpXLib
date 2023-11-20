@@ -13,7 +13,7 @@ namespace System.Runtime.CompilerServices
 namespace ChirpXLib.Utils
 {
 
-    public static class Utils
+    public static class CWorld
     {
         private static World? _clientWorld;
 
@@ -38,7 +38,7 @@ namespace ChirpXLib.Utils
         }
 
         public static World Default => World.DefaultGameObjectInjectionWorld;
-        public static World Game => Utils.Client;
+        public static World Game => Client;
 
     }
 
